@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Login from './Pages/Login/Login';
-import Home from './Pages/Home/Home';
+import Home from './Pages/Home/home';
 import Loading from './components/Loading';
 
 function Routes() {
@@ -9,7 +9,7 @@ function Routes() {
         <BrowserRouter>
             <Switch>
                 <Route path='/' exact component={Login} />
-                <Route path='/home' component={Home} />
+                <Route path='/pageHome' component={Home} />
                 <Route path='/loading' component={Loading} />
             </Switch>
         </BrowserRouter>

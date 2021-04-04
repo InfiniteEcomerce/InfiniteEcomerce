@@ -1,0 +1,17 @@
+.promo{
+    background-color: #f3e17a;
+    color: #02162b;
+}
+
+.card{
+    width: 12rem;
+    background-color: #02162b;
+    color: #f3e17a;
+}
+.card img{
+    height: 200px;
+}
+
+.ultima{
+    margin-bottom: 70px;
+}

@@ -1,4 +1,18 @@
-.logo-image{
-    width: 100px;
-    height: 70px;
+.navbar{
+    background-color: #02162b;
 }
+
+.inf{
+    border-top:1px solid #f3e17a;
+    color: #f3e17a;
+}
+
+.btn{
+    background-color: #f3e17a;
+    color: #02162b;
+}
+
+#letra{
+    color: #f3e17a;
+}
+
