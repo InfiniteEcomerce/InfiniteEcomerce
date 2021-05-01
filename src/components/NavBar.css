@@ -2,7 +2,7 @@
     background-color: #02162b;
 }
 
-.inf{
+.guiaNav{
     border-top:1px solid #f3e17a;
     color: #f3e17a;
 }
@@ -14,5 +14,15 @@
 
 #letra{
     color: #f3e17a;
+}
+
+@media (max-width: 320px){
+    .imgRes1{
+        display: none;
+    }
+
+    .divInfRes{
+        margin-top: 70px;
+    }
 }
 
